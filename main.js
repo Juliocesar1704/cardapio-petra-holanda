@@ -243,7 +243,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_banoffe.gif"
+    "image": "images/xmenu_banoffe.png"
   },
   {
     "id": "bolo-no-pote-brigadeiro",
@@ -393,7 +393,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_cone-trufado.gif"
+    "image": "images/xmenu_cone-trufado.png"
   },
   {
     "id": "copo-da-felicidade-266g",
@@ -453,7 +453,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_coxinha-doce.gif"
+    "image": "images/xmenu_coxinha-doce.png"
   },
   {
     "id": "delicia-tropical-sensa-ao",
@@ -468,7 +468,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_delicia-tropical-sensa-ao.gif"
+    "image": "images/xmenu_delicia-tropical-sensa-ao.png"
   },
   {
     "id": "fatia-nutella",
@@ -498,7 +498,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_del-cia-tropical-abacaxi.gif"
+    "image": "images/xmenu_del-cia-tropical-abacaxi.png"
   },
   {
     "id": "del-cia-tropical-limao",
@@ -513,7 +513,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_del-cia-tropical-limao.gif"
+    "image": "images/xmenu_del-cia-tropical-limao.png"
   },
   {
     "id": "del-cia-tropical-maracuja",
@@ -543,7 +543,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_del-cia-tropical-prestigio.gif"
+    "image": "images/xmenu_del-cia-tropical-prestigio.png"
   },
   {
     "id": "docinhos-brigadeiro-belga",
@@ -558,7 +558,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_docinhos-brigadeiro-belga.gif"
+    "image": "images/xmenu_docinhos-brigadeiro-belga.png"
   },
   {
     "id": "docinhos-churros",
@@ -588,7 +588,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_docinhos-ferrero-rocher.gif"
+    "image": "images/xmenu_docinhos-ferrero-rocher.png"
   },
   {
     "id": "docinhos-ninho-com-nutela",
@@ -603,7 +603,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_docinhos-ninho-com-nutela.gif"
+    "image": "images/xmenu_docinhos-ninho-com-nutela.png"
   },
   {
     "id": "docinhos-surpresa-de-uva",
@@ -618,7 +618,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_docinhos-surpresa-de-uva.gif"
+    "image": "images/xmenu_docinhos-surpresa-de-uva.png"
   },
   {
     "id": "fatia-crocante",
@@ -738,7 +738,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_gargamel.gif"
+    "image": "images/xmenu_gargamel.png"
   },
   {
     "id": "pasteninho",
@@ -753,7 +753,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_pasteninho.gif"
+    "image": "images/xmenu_pasteninho.png"
   },
   {
     "id": "pudim-de-leite",
@@ -768,7 +768,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_pudim-de-leite.gif"
+    "image": "images/xmenu_pudim-de-leite.png"
   },
   {
     "id": "fatia-torta-duo",
@@ -1023,7 +1023,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_agua-com-gas.gif"
+    "image": "images/xmenu_agua-com-gas.png"
   },
   {
     "id": "agua-mineral",
@@ -1038,7 +1038,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_agua-mineral.gif"
+    "image": "images/xmenu_agua-mineral.png"
   },
   {
     "id": "cafe-expresso",
@@ -1053,7 +1053,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_cafe-expresso.gif"
+    "image": "images/xmenu_cafe-expresso.png"
   },
   {
     "id": "capuccino",
@@ -1113,7 +1113,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_coca-cola-1l.gif"
+    "image": "images/xmenu_coca-cola-1l.png"
   },
   {
     "id": "coca-zero-1lt",
@@ -1128,7 +1128,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_coca-zero-1lt.gif"
+    "image": "images/xmenu_coca-zero-1lt.png"
   },
   {
     "id": "guarana-1lt",
@@ -1143,7 +1143,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_guarana-1lt.gif"
+    "image": "images/xmenu_guarana-1lt.png"
   },
   {
     "id": "milkshake-chocomaltine",
@@ -1218,7 +1218,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_refrigerante-lata-coca-cola.gif"
+    "image": "images/xmenu_refrigerante-lata-coca-cola.png"
   },
   {
     "id": "refrigerante-lata-fanta-laranja",
@@ -1233,7 +1233,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_refrigerante-lata-fanta-laranja.gif"
+    "image": "images/xmenu_refrigerante-lata-fanta-laranja.png"
   },
   {
     "id": "refrigerante-lata-fanta-uva",
@@ -1248,7 +1248,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_refrigerante-lata-fanta-uva.gif"
+    "image": "images/xmenu_refrigerante-lata-fanta-uva.png"
   },
   {
     "id": "refrigerante-lata-guarana",
@@ -1263,7 +1263,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_refrigerante-lata-guarana.gif"
+    "image": "images/xmenu_refrigerante-lata-guarana.png"
   },
   {
     "id": "suco-laranja",
@@ -1278,7 +1278,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_suco-laranja.gif"
+    "image": "images/xmenu_suco-laranja.png"
   },
   {
     "id": "suco-polpa-acerola",
@@ -1353,7 +1353,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_h2o.gif"
+    "image": "images/xmenu_h2o.png"
   },
   {
     "id": "suco-de-uva",
@@ -1383,7 +1383,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_refrigerante-lata-coca-cola-zero.gif"
+    "image": "images/xmenu_refrigerante-lata-coca-cola-zero.png"
   },
   {
     "id": "refrigerante-lata-guarana-zero",
@@ -1398,7 +1398,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_refrigerante-lata-guarana-zero.gif"
+    "image": "images/xmenu_refrigerante-lata-guarana-zero.png"
   },
   {
     "id": "refrigerante-lata-sprite",
@@ -1413,7 +1413,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_refrigerante-lata-sprite.gif"
+    "image": "images/xmenu_refrigerante-lata-sprite.png"
   },
   {
     "id": "refrigerante-lata-sprite-zero",
@@ -1428,7 +1428,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_refrigerante-lata-sprite-zero.gif"
+    "image": "images/xmenu_refrigerante-lata-sprite-zero.png"
   },
   {
     "id": "dimdim-goumert-abacaxi-com-coco",
@@ -1443,7 +1443,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_dimdim-goumert-abacaxi-com-coco.gif"
+    "image": "images/xmenu_dimdim-goumert-abacaxi-com-coco.png"
   },
   {
     "id": "dindin-goumert-sensa-o",
@@ -1458,7 +1458,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_dindin-goumert-sensa-o.gif"
+    "image": "images/xmenu_dindin-goumert-sensa-o.png"
   },
   {
     "id": "dindin-gourmert-pistache",
@@ -1473,7 +1473,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_dindin-gourmert-pistache.gif"
+    "image": "images/xmenu_dindin-gourmert-pistache.png"
   },
   {
     "id": "dindin-gourmert-pudim",
@@ -1488,7 +1488,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_dindin-gourmert-pudim.gif"
+    "image": "images/xmenu_dindin-gourmert-pudim.png"
   },
   {
     "id": "dindin-gourmet-ninho-com-morango",
@@ -1518,7 +1518,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_dindin-gourmet-oreo.gif"
+    "image": "images/xmenu_dindin-gourmet-oreo.png"
   },
   {
     "id": "dindin-gourmet-ovomaltine",
@@ -1533,7 +1533,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_dindin-gourmet-ovomaltine.gif"
+    "image": "images/xmenu_dindin-gourmet-ovomaltine.png"
   },
   {
     "id": "dindin-gourmet-prestigio",
@@ -1548,7 +1548,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_dindin-gourmet-prestigio.gif"
+    "image": "images/xmenu_dindin-gourmet-prestigio.png"
   },
   {
     "id": "dindin-gourmet-torta-de-limao",
@@ -1563,7 +1563,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_dindin-gourmet-torta-de-limao.gif"
+    "image": "images/xmenu_dindin-gourmet-torta-de-limao.png"
   },
   {
     "id": "dindin-ninho-e-nutella",
@@ -1578,7 +1578,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_dindin-ninho-e-nutella.gif"
+    "image": "images/xmenu_dindin-ninho-e-nutella.png"
   },
   {
     "id": "maracuja-trufado",
@@ -1608,7 +1608,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_sacola-para-presente-g.gif"
+    "image": "images/xmenu_sacola-para-presente-g.png"
   },
   {
     "id": "sacola-tam-p",
@@ -1623,7 +1623,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_sacola-tam-p.gif"
+    "image": "images/xmenu_sacola-tam-p.png"
   }
 ];
 
