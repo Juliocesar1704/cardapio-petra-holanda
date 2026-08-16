@@ -18,7 +18,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/porcao_salgadinhos_festa.png"
+    "image": "images/xmenu_empada-frango-catupiry.png"
   },
   {
     "id": "empada-de-carne-de-sol-com-cream-cheese",
@@ -33,7 +33,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/porcao_salgadinhos_festa.png"
+    "image": "images/xmenu_empada-de-carne-de-sol-com-cream-cheese.png"
   },
   {
     "id": "p-o-del-cia-frango",
@@ -48,7 +48,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/pao_de_queijo_recheado.png"
+    "image": "images/xmenu_p-o-del-cia-frango.png"
   },
   {
     "id": "p-o-delicia-carne",
@@ -63,7 +63,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/pao_de_queijo_recheado.png"
+    "image": "images/xmenu_p-o-delicia-carne.png"
   },
   {
     "id": "coxinha-carne-de-sol",
@@ -78,7 +78,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/coxinha_gourmet_solo.png"
+    "image": "images/xmenu_coxinha-carne-de-sol.png"
   },
   {
     "id": "coxinha-de-frango-com-requeij-o",
@@ -108,7 +108,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/porcao_salgadinhos_festa.png"
+    "image": "images/xmenu_salgadinhos-fritos-carne-de-sol-15-unid.png"
   },
   {
     "id": "salgadinhos-fritos-frango-15-unid",
@@ -123,7 +123,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/porcao_salgadinhos_festa.png"
+    "image": "images/xmenu_salgadinhos-fritos-frango-15-unid.png"
   },
   {
     "id": "salgadinhos-fritos-mix-frango-carne-e-queijo-15-unid",
@@ -153,7 +153,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/porcao_salgadinhos_festa.png"
+    "image": "images/xmenu_salgadinhos-fritos-queijo-15-unid.png"
   },
   {
     "id": "croissant-de-carne",
@@ -168,7 +168,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/croissant_salgado_ervas.png"
+    "image": "images/xmenu_croissant-de-carne.png"
   },
   {
     "id": "croissant-de-frango",
@@ -183,7 +183,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/croissant_salgado_frango.png"
+    "image": "images/xmenu_croissant-de-frango.png"
   },
   {
     "id": "croissant-ninho-com-morango",
@@ -198,7 +198,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/croissant_doce_ninho_nutella.png"
+    "image": "images/xmenu_croissant-ninho-com-morango.png"
   },
   {
     "id": "croissant-ninho-com-nutella",
@@ -213,7 +213,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/croissant_doce_ninho_nutella.png"
+    "image": "images/xmenu_croissant-ninho-com-nutella.png"
   },
   {
     "id": "alfajor",
