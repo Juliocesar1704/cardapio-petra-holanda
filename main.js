@@ -18,7 +18,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_empada-frango-catupiry.gif"
+    "image": "images/porcao_salgadinhos_festa.png"
   },
   {
     "id": "empada-de-carne-de-sol-com-cream-cheese",
@@ -33,7 +33,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_empada-de-carne-de-sol-com-cream-cheese.gif"
+    "image": "images/porcao_salgadinhos_festa.png"
   },
   {
     "id": "p-o-del-cia-frango",
@@ -1627,6 +1627,15 @@ const PRODUCTS = [
   }
 ];
 
+// Clean up any temporary blob URLs from local testing
+const rawCustomPhotos = JSON.parse(localStorage.getItem("petra_custom_photos") || "{}");
+const cleanedCustomPhotos = {};
+Object.keys(rawCustomPhotos).forEach(k => {
+  if (rawCustomPhotos[k] && !rawCustomPhotos[k].startsWith("blob:")) {
+    cleanedCustomPhotos[k] = rawCustomPhotos[k];
+  }
+});
+
 // App State
 const state = {
   cart: [],
@@ -1634,7 +1643,7 @@ const state = {
   activeFilter: null,
   searchQuery: "",
   photoManagerEnabled: false,
-  customPhotos: JSON.parse(localStorage.getItem("petra_custom_photos") || "{}"),
+  customPhotos: cleanedCustomPhotos,
   selectedProductForModal: null,
   modalQty: 1,
   orderMode: "table", // "table" (Consumo no Local / QR Code) ou "delivery" (Delivery/Retirada)
@@ -1765,10 +1774,14 @@ function renderProducts() {
 }
 
 function createProductCardHTML(product) {
-  const customImg = state.customPhotos[product.id] || product.image;
+  let customImg = state.customPhotos[product.id];
+  if (customImg && customImg.startsWith("blob:")) {
+    customImg = null;
+  }
+  const finalImg = customImg || product.image;
   
-  const imageHTML = customImg 
-    ? `<img src="${customImg}" alt="${product.title}" class="product-card-img" onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='flex';" />
+  const imageHTML = finalImg 
+    ? `<img src="${finalImg}" alt="${product.title}" class="product-card-img" onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='flex';" />
        <div class="placeholder-illustration" style="display:none;">
         <span class="ph-icon">${product.icon || '🧁'}</span>
         <span class="ph-text">Petra Holanda</span>
