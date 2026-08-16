@@ -1,0 +1,25 @@
+# Dependências
+node_modules/
+
+# Fotos originais (screenshots Instagram)
+fotos_a_tratar/
+
+# Scripts auxiliares de processamento
+process_photos.py
+check_images.py
+lookup_prices.py
+
+# Catálogo xmenu (dados brutos)
+xmenu_catalog.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Vercel
+.vercel/

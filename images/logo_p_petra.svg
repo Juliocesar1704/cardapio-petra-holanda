@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 260" width="100%" height="100%">
+  <defs>
+    <!-- Gradiente Dourado Principal - Metálico Quente -->
+    <linearGradient id="goldMain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE8A0"/>
+      <stop offset="18%" stop-color="#E8C44A"/>
+      <stop offset="40%" stop-color="#D4A830"/>
+      <stop offset="60%" stop-color="#C69420"/>
+      <stop offset="80%" stop-color="#B07C10"/>
+      <stop offset="100%" stop-color="#8A6008"/>
+    </linearGradient>
+
+    <!-- Gradiente Dourado para Brilho/Highlight -->
+    <linearGradient id="goldHighlight" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8E0"/>
+      <stop offset="30%" stop-color="#F5D660"/>
+      <stop offset="70%" stop-color="#D4A830"/>
+      <stop offset="100%" stop-color="#A07010"/>
+    </linearGradient>
+
+    <!-- Gradiente para o Coração -->
+    <linearGradient id="goldHeart" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#FCEFC0"/>
+      <stop offset="35%" stop-color="#E8C44A"/>
+      <stop offset="65%" stop-color="#C89420"/>
+      <stop offset="100%" stop-color="#9A7010"/>
+    </linearGradient>
+
+    <!-- Gradiente Swash/Cauda Elegante -->
+    <linearGradient id="goldSwash" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#F5D870"/>
+      <stop offset="40%" stop-color="#D4A830"/>
+      <stop offset="100%" stop-color="#9A7010"/>
+    </linearGradient>
+
+    <!-- Reflexo de Luz (para efeito 3D no corpo do P) -->
+    <linearGradient id="goldReflection" x1="30%" y1="0%" x2="70%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8E8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#F5D870" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#C69420" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Sombra Projetada Suave -->
+    <filter id="dropShadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#6A4800" flood-opacity="0.35"/>
+    </filter>
+
+    <!-- Brilho Externo Dourado (Glow) -->
+    <filter id="goldGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#D4A830" flood-opacity="0.25" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Brilho interno para highlight -->
+    <filter id="innerGlow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+      <feOffset dx="1" dy="1" result="offsetBlur"/>
+      <feFlood flood-color="#FFF0C0" flood-opacity="0.5" result="glowColor"/>
+      <feComposite in="glowColor" in2="offsetBlur" operator="in" result="softGlow"/>
+      <feMerge>
+        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode in="softGlow"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g filter="url(#goldGlow)">
+    <!-- ===== CORAÇÃO no topo ===== -->
+    <path d="
+      M 72.5 32
+      C 72.5 25, 63 17, 55 24
+      C 47 17, 38 25, 38 32
+      C 38 42, 55 52, 55 56
+      C 55 52, 72.5 42, 72.5 32 Z"
+      fill="url(#goldHeart)"
+      filter="url(#dropShadow)"/>
+
+    <!-- Highlight do coração -->
+    <path d="
+      M 66 30
+      C 66 26, 61 22, 57 25
+      C 55 23, 51 26, 51 29
+      C 51 33, 57 37, 57 38
+      C 57 37, 66 33, 66 30 Z"
+      fill="url(#goldReflection)" opacity="0.5"/>
+
+    <!-- ===== LETRA P - Corpo Principal ===== -->
+    <!-- Haste Vertical com serifas -->
+    <path d="
+      M 45 62
+      L 45 60
+      C 45 58, 64 58, 64 60
+      L 64 62
+      L 66 62
+      L 66 188
+      C 66 190, 70 192, 72 194
+      C 74 196, 76 198, 76 200
+      L 36 200
+      C 36 198, 38 196, 40 194
+      C 42 192, 46 190, 46 188
+      L 46 62
+      Z"
+      fill="url(#goldMain)"
+      filter="url(#dropShadow)"/>
+
+    <!-- Reflexo de luz na haste vertical -->
+    <path d="
+      M 48 62
+      L 57 62
+      L 57 188
+      L 48 188
+      Z"
+      fill="url(#goldReflection)" opacity="0.3"/>
+
+    <!-- ===== Barriga do P (Bowl) ===== -->
+    <path d="
+      M 64 62
+      L 100 62
+      C 128 62, 152 70, 152 92
+      C 152 114, 128 126, 100 126
+      L 66 126
+      L 66 62
+      Z
+      M 66 72
+      L 98 72
+      C 120 72, 138 80, 138 92
+      C 138 106, 120 116, 98 116
+      L 66 116
+      Z"
+      fill="url(#goldMain)"
+      fill-rule="evenodd"
+      filter="url(#dropShadow)"/>
+
+    <!-- Highlight na barriga do P -->
+    <path d="
+      M 68 72
+      C 68 72, 95 72, 110 76
+      C 125 80, 134 86, 134 92
+      C 134 92, 130 82, 110 78
+      C 95 75, 68 76, 68 76
+      Z"
+      fill="url(#goldReflection)" opacity="0.45"/>
+
+    <!-- ===== Cauda Swash Elegante ===== -->
+    <!-- Curva decorativa saindo da barriga do P, cruzando sob a haste -->
+    <path d="
+      M 108 118
+      C 90 124, 66 132, 46 144
+      C 34 152, 26 160, 30 166
+      C 34 172, 44 166, 56 158
+      C 76 144, 100 130, 118 122
+      Z"
+      fill="url(#goldSwash)"
+      filter="url(#dropShadow)"/>
+
+    <!-- Highlight sutil na cauda -->
+    <path d="
+      M 106 120
+      C 92 126, 72 134, 54 144
+      C 46 150, 40 155, 42 158
+      C 44 159, 48 156, 54 152
+      C 72 140, 92 130, 108 124
+      Z"
+      fill="url(#goldReflection)" opacity="0.3"/>
+
+    <!-- ===== Serifa inferior esquerda (base) ===== -->
+    <path d="
+      M 28 198
+      C 30 196, 34 194, 36 200
+      L 36 200
+      L 28 200
+      Z"
+      fill="url(#goldMain)" opacity="0.6"/>
+
+    <!-- ===== Serifa inferior direita (base) ===== -->
+    <path d="
+      M 76 200
+      L 84 200
+      C 82 196, 78 194, 76 200
+      Z"
+      fill="url(#goldMain)" opacity="0.6"/>
+  </g>
+</svg>

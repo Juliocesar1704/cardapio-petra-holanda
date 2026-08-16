@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Petra Holanda Confeitaria | Cardápio Digital Interativo</title>
+  <meta name="description" content="Cardápio digital interativo da Petra Holanda Confeitaria. Peça bolos artesanais, tortas, doces gourmet, taças e salgados com entrega ou retirada.">
+
+  <!-- Google Fonts: Luxury Patisserie Styling -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <span class="status-badge pulse"><i class="icon-dot"></i> Loja Aberta • 10h às 20h</span>
+      <span class="top-info"><i class="icon-loc"></i> Cohabinal, Parnamirim - RN</span>
+      <a href="https://www.instagram.com/petraholandaconfeitaria" target="_blank" rel="noopener" class="top-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+        @petraholandaconfeitaria
+      </a>
+    </div>
+  </div>
+
+  <!-- Main Header & Arch Facade Hero -->
+  <header class="hero-header">
+    <div class="arch-bg-pattern"></div>
+    <div class="container header-container">
+      <div class="brand-logo-wrapper">
+        <img src="images/logo_petra_holanda.svg" alt="Petra Holanda Confeitaria" class="brand-logo-img">
+      </div>
+      <h1 class="brand-title sr-only">Petra Holanda Confeitaria</h1>
+      
+      <div class="brand-badges">
+        <span class="badge-item"><span class="star">★</span> 4.9 Confeitaria Fina</span>
+        <span class="badge-item"><span class="leaf">✿</span> Feito com Amor</span>
+        <span class="badge-item"><span class="truck">⚡</span> Pronta Entrega & Encomendas</span>
+      </div>
+
+      <!-- Quick Actions -->
+      <div class="header-actions">
+        <button class="btn-secondary" id="btn-info-modal">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          Informações da Loja
+        </button>
+        <button class="btn-primary" id="btn-open-cart">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          Ver Meu Pedido (<span class="cart-count-badge">0</span>)
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Order Mode Tabs: Consumo na Loja (QR Code/Mesa) vs Delivery/Retirada -->
+  <div class="order-mode-tabs-container">
+    <div class="container">
+      <div class="order-mode-tabs" id="order-mode-tabs">
+        <button class="mode-tab active" data-mode="table">
+          <span class="mode-icon">🍽️</span> Consumo na Loja (QR Code / Mesa)
+        </button>
+        <button class="mode-tab" data-mode="delivery">
+          <span class="mode-icon">🛵</span> Delivery & Retirada
+        </button>
+      </div>
+
+      <div class="table-selector-bar" id="table-selector-bar">
+        <span class="table-bar-label">📍 Atendimento na Mesa:</span>
+        <select id="table-number-select" class="table-number-select">
+          <option value="01" selected>Mesa 01</option>
+          <option value="02">Mesa 02</option>
+          <option value="03">Mesa 03</option>
+          <option value="04">Mesa 04</option>
+          <option value="05">Mesa 05</option>
+          <option value="06">Mesa 06</option>
+          <option value="07">Mesa 07</option>
+          <option value="08">Mesa 08</option>
+          <option value="09">Mesa 09</option>
+          <option value="10">Mesa 10</option>
+          <option value="12">Mesa 12 (Varanda)</option>
+          <option value="15">Mesa 15 (VIP)</option>
+        </select>
+        <span class="table-bar-badge"><i class="icon-dot"></i> Pedido enviado direto para a cozinha • Sem taxa de entrega</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Controls Section: Search & Categories -->
+  <section class="sticky-controls">
+    <div class="container">
+      
+      <!-- Search Input -->
+      <div class="search-box">
+        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="search-input" placeholder="Buscar fatias, dindins, bolos, taças, salgados..." autocomplete="off">
+        <button id="search-clear" class="search-clear-btn" hidden>&times;</button>
+      </div>
+
+      <!-- Categories Pills Horizontal Scroll -->
+      <nav class="categories-nav" id="categories-nav">
+        <button class="category-chip active" data-category="todos">
+          <span class="chip-icon">✨</span> Todos os Itens
+        </button>
+        <button class="category-chip" data-category="dindins">
+          <span class="chip-icon">🍦</span> Dindins Gourmet
+        </button>
+        <button class="category-chip" data-category="vitrine">
+          <span class="chip-icon">🍰</span> Vitrine Pronta Entrega
+        </button>
+        <button class="category-chip" data-category="bolos">
+          <span class="chip-icon">🎂</span> Bolos Fatiados & Festas
+        </button>
+        <button class="category-chip" data-category="tacas">
+          <span class="chip-icon">🍧</span> Taças & Sobremesas
+        </button>
+        <button class="category-chip" data-category="salgados">
+          <span class="chip-icon">🥐</span> Salgados & Empadas
+        </button>
+        <button class="category-chip" data-category="bebidas">
+          <span class="chip-icon">🥤</span> Bebidas & Cafés
+        </button>
+        <button class="category-chip" data-category="doces">
+          <span class="chip-icon">🍬</span> Doces Gourmet
+        </button>
+        <button class="category-chip" data-category="cestas">
+          <span class="chip-icon">🎁</span> Cestas & Presentes
+        </button>
+      </nav>
+
+      <!-- Quick Filter Tags -->
+      <div class="filter-tags" id="filter-tags">
+        <span class="filter-tag" data-filter="destaque">⭐ Destaques da Vitrine</span>
+        <span class="filter-tag" data-filter="mais-vendido">🔥 Mais Vendidos</span>
+        <span class="filter-tag" data-filter="individual">👤 Porção Individual</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Menu Grid Section -->
+  <main class="menu-main container">
+    
+    <!-- Active Category Header -->
+    <div class="section-title-container">
+      <div>
+        <span class="section-script">Nossas Delícias</span>
+        <h2 class="section-heading" id="current-category-heading">Vitrine Pronta Entrega</h2>
+      </div>
+      <div class="image-uploader-toggle-wrapper">
+        <label class="toggle-mode-btn" title="Permite enviar fotos de teste para os cards de produtos">
+          <input type="checkbox" id="photo-manager-toggle">
+          <span class="toggle-slider"></span>
+          <span class="toggle-text">📸 Gerenciador de Fotos</span>
+        </label>
+      </div>
+    </div>
+
+    <!-- Products Grid -->
+    <div class="products-grid" id="products-grid">
+      <!-- Product cards populated dynamically by JavaScript -->
+    </div>
+
+    <!-- Empty Results View -->
+    <div class="empty-state" id="empty-state" hidden>
+      <div class="empty-icon">🧁</div>
+      <h3>Nenhuma delícia encontrada</h3>
+      <p>Tente buscar por outro termo ou selecione uma categoria diferente.</p>
+      <button class="btn-secondary" id="reset-search-btn">Limpar Busca</button>
+    </div>
+
+  </main>
+
+  <!-- Product Detail / Customization Modal -->
+  <div class="modal-backdrop" id="product-modal-backdrop">
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close-btn">&times;</button>
+      
+      <div class="modal-body">
+        <div class="modal-image-col">
+          <div class="modal-image-wrapper" id="modal-img-container">
+            <!-- Dynamic Image or Stylish Placeholder -->
+          </div>
+        </div>
+        
+        <div class="modal-info-col">
+          <span class="modal-category-tag" id="modal-category-tag">Vitrine</span>
+          <h2 class="modal-title" id="modal-title">Nome do Produto</h2>
+          <p class="modal-price" id="modal-price">R$ 0,00</p>
+          <p class="modal-description" id="modal-description">Descrição detalhada do produto e seus ingredientes.</p>
+          
+          <form id="modal-custom-form">
+            <!-- Options (like flavors selection for bolo no pote / taça) -->
+            <div class="form-group" id="modal-options-group">
+              <label class="form-label" id="modal-options-label">Escolha o Sabor:</label>
+              <div class="options-radio-list" id="modal-options-list">
+                <!-- Radio options inserted via JS -->
+              </div>
+            </div>
+
+            <!-- Special Note Input -->
+            <div class="form-group">
+              <label class="form-label" for="modal-note">Observações Especiais:</label>
+              <input type="text" id="modal-note" class="form-input" placeholder="Ex: Para presente, sem canela, etc.">
+            </div>
+
+            <!-- Quantity & Add Button Footer -->
+            <div class="modal-footer-actions">
+              <div class="quantity-control">
+                <button type="button" class="btn-qty" id="qty-minus">-</button>
+                <span class="qty-number" id="qty-display">1</span>
+                <button type="button" class="btn-qty" id="qty-plus">+</button>
+              </div>
+
+              <button type="submit" class="btn-primary btn-add-modal" id="btn-add-modal">
+                Adicionar • <span id="modal-total-price">R$ 0,00</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Shopping Cart / Bag Drawer -->
+  <div class="cart-drawer-backdrop" id="cart-drawer-backdrop">
+    <div class="cart-drawer">
+      <div class="cart-header">
+        <div class="cart-header-title">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          <h3>Sua Sacola de Delícias</h3>
+        </div>
+        <button class="cart-close" id="cart-close-btn">&times;</button>
+      </div>
+
+      <!-- Items List -->
+      <div class="cart-body" id="cart-items-container">
+        <!-- Cart items rendered by JS -->
+      </div>
+
+      <!-- Cart Footer & Checkout Form -->
+      <div class="cart-footer">
+        <div class="order-type-selector">
+          <button class="order-type-btn active" data-type="delivery">
+            🚚 Entrega (Delivery)
+          </button>
+          <button class="order-type-btn" data-type="pickup">
+            🏪 Retirada na Loja
+          </button>
+        </div>
+
+        <div class="cart-summary-lines">
+          <div class="summary-line">
+            <span>Subtotal:</span>
+            <strong id="cart-subtotal">R$ 0,00</strong>
+          </div>
+          <div class="summary-line" id="delivery-fee-line">
+            <span>Taxa de Entrega:</span>
+            <strong id="cart-delivery-fee">A calcular via WhatsApp</strong>
+          </div>
+          <div class="summary-line total-line">
+            <span>Total estimado:</span>
+            <strong id="cart-grand-total">R$ 0,00</strong>
+          </div>
+        </div>
+
+        <!-- Checkout Form Input -->
+        <form id="checkout-form" class="checkout-form">
+          <div class="form-row">
+            <input type="text" id="cust-name" class="form-input" placeholder="Seu Nome *" required>
+            <input type="tel" id="cust-phone" class="form-input" placeholder="Seu WhatsApp *" required>
+          </div>
+          
+          <div id="delivery-address-group" class="form-group">
+            <input type="text" id="cust-address" class="form-input" placeholder="Endereço de Entrega (Rua, Nº, Bairro) *">
+          </div>
+
+          <div class="form-group">
+            <select id="cust-payment" class="form-select" required>
+              <option value="" disabled selected>Forma de Pagamento *</option>
+              <option value="Pix">PIX (Chave enviada no WhatsApp)</option>
+              <option value="Cartão de Crédito">Cartão de Crédito</option>
+              <option value="Cartão de Débito">Cartão de Débito</option>
+              <option value="Dinheiro">Dinheiro (Trazer Troco)</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn-whatsapp-checkout">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.299.433 2.5 1.164 3.473l-.766 2.799 2.871-.753c.937.512 2.015.808 3.161.808 3.181 0 5.767-2.586 5.768-5.766.001-3.18-2.585-5.767-5.766-5.767zm0 10.28c-1.026 0-1.986-.296-2.8-.809l-.201-.127-1.701.446.454-1.658-.139-.221c-.579-.92-.885-1.996-.884-3.111.002-2.484 2.022-4.504 4.506-4.504 2.483 0 4.503 2.02 4.504 4.504-.001 2.484-2.021 4.504-4.505 4.504z"/></svg>
+            Finalizar Pedido no WhatsApp
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Store Info Modal -->
+  <div class="modal-backdrop" id="info-modal-backdrop">
+    <div class="modal-card modal-card-sm">
+      <button class="modal-close" id="info-modal-close">&times;</button>
+      <div class="store-info-content">
+        <div class="brand-logo-wrapper sm">
+          <img src="images/logo_petra_holanda.svg" alt="Petra Holanda Confeitaria" class="brand-logo-img">
+        </div>
+        <h2 class="sr-only">Petra Holanda Confeitaria</h2>
+        <p class="subtitle">Confeitaria Fina & Doces Artesanais</p>
+        
+        <div class="info-list">
+          <div class="info-item">
+            <span class="icon">📍</span>
+            <div>
+              <strong>Endereço:</strong>
+              <p>Rua Brigadeiro Pessoa Ramos, 14 - Cohabinal, Parnamirim - RN</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="icon">⏰</span>
+            <div>
+              <strong>Horário de Funcionamento:</strong>
+              <p>Terça a Domingo: 10h às 20h</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="icon">🍰</span>
+            <div>
+              <strong>Especialidades:</strong>
+              <p>Bolos espatulados, fatias gourmet, brigadeiros finos, taças de sobremesa e salgados artesanais.</p>
+            </div>
+          </div>
+        </div>
+
+        <a href="https://www.instagram.com/petraholandaconfeitaria" target="_blank" rel="noopener" class="btn-secondary full-width">
+          Ver Perfil no Instagram (@petraholandaconfeitaria)
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Floating Order Bar (Mobile & Desktop) -->
+  <div class="floating-cart-bar" id="floating-cart-bar">
+    <div class="floating-cart-info">
+      <div class="bag-icon-wrapper">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+        <span class="cart-count-badge" id="float-cart-count">0</span>
+      </div>
+      <div>
+        <div class="float-label">Seu Pedido</div>
+        <div class="float-price" id="float-cart-total">R$ 0,00</div>
+      </div>
+    </div>
+    <button class="btn-float-open" id="btn-float-open">
+      Ver Sacola &rarr;
+    </button>
+  </div>
+
+  <script src="main.js" type="module"></script>
+</body>
+</html>
