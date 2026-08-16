@@ -48,7 +48,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_p-o-del-cia-frango.gif"
+    "image": "images/pao_de_queijo_recheado.png"
   },
   {
     "id": "p-o-delicia-carne",
@@ -63,7 +63,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_p-o-delicia-carne.gif"
+    "image": "images/pao_de_queijo_recheado.png"
   },
   {
     "id": "coxinha-carne-de-sol",
@@ -78,7 +78,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_coxinha-carne-de-sol.gif"
+    "image": "images/coxinha_gourmet_solo.png"
   },
   {
     "id": "coxinha-de-frango-com-requeij-o",
@@ -123,7 +123,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_salgadinhos-fritos-frango-15-unid.gif"
+    "image": "images/porcao_salgadinhos_festa.png"
   },
   {
     "id": "salgadinhos-fritos-mix-frango-carne-e-queijo-15-unid",
@@ -153,7 +153,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_salgadinhos-fritos-queijo-15-unid.gif"
+    "image": "images/porcao_salgadinhos_festa.png"
   },
   {
     "id": "croissant-de-carne",
@@ -168,7 +168,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_croissant-de-carne.gif"
+    "image": "images/croissant_salgado_ervas.png"
   },
   {
     "id": "croissant-de-frango",
@@ -198,7 +198,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_croissant-ninho-com-morango.gif"
+    "image": "images/croissant_doce_ninho_nutella.png"
   },
   {
     "id": "croissant-ninho-com-nutella",
@@ -273,7 +273,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_bolo-no-pote-ninho-brigadeiro.gif"
+    "image": "images/bolo_no_pote_brigadeiro.png"
   },
   {
     "id": "bolo-no-pote-ninho-morango",
@@ -303,7 +303,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_bolo-no-pote-ninho-nutela.gif"
+    "image": "images/bolo_no_pote_brigadeiro.png"
   },
   {
     "id": "bolo-no-pote-red-velvet",
@@ -318,7 +318,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_bolo-no-pote-red-velvet.gif"
+    "image": "images/naked_cake_premium_red_velvet.png"
   },
   {
     "id": "brownie-duo-brigadeiro",
@@ -333,7 +333,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/brownie_supreme_morangos.png"
+    "image": "images/brownies_gourmet_sabores.png"
   },
   {
     "id": "brownie-duo-ninho-e-brigadeiro",
@@ -363,7 +363,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/fatia_pizza_brownie.png"
+    "image": "images/brownie_supreme_morangos.png"
   },
   {
     "id": "brownie-duo-ninho-e-nutella",
@@ -378,7 +378,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/brownie_colher_sorvete.png"
+    "image": "images/brownie_supreme_morangos.png"
   },
   {
     "id": "cone-trufado",
@@ -408,7 +408,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_copo-da-felicidade-266g.gif"
+    "image": "images/taca_ostentacao_petra.png"
   },
   {
     "id": "copo-kinder",
@@ -423,7 +423,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_copo-kinder.gif"
+    "image": "images/torta_retangular_kinder.png"
   },
   {
     "id": "copo-mousse-de-ninho",
@@ -438,7 +438,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_copo-mousse-de-ninho.gif"
+    "image": "images/potinho_mousse_ninho_morango.png"
   },
   {
     "id": "coxinha-doce",
@@ -483,7 +483,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/torta_retangular_kinder.png"
+    "image": "images/fatia_cacau_calda_quente.png"
   },
   {
     "id": "del-cia-tropical-abacaxi",
@@ -528,7 +528,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_del-cia-tropical-maracuja.gif"
+    "image": "images/fatia_torta_maracuja.png"
   },
   {
     "id": "del-cia-tropical-prestigio",
@@ -633,7 +633,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_fatia-crocante.gif"
+    "image": "images/fatia_torta_duo_glace.png"
   },
   {
     "id": "fatia-matilda",
@@ -648,7 +648,7 @@ const PRODUCTS = [
     "filterTags": [
       "destaque"
     ],
-    "image": "images/xmenu_fatia-matilda.gif"
+    "image": "images/fatia_cacau_calda_quente.png"
   },
   {
     "id": "fatia-matilda-completa",
@@ -678,7 +678,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_fatia-ninho-com-nutela.gif"
+    "image": "images/fatia_torta_duo_glace.png"
   },
   {
     "id": "fatia-red-velvet",
@@ -708,7 +708,7 @@ const PRODUCTS = [
     "filterTags": [
       "destaque"
     ],
-    "image": "images/xmenu_fatia-tenta-ao.gif"
+    "image": "images/fatia_red_velvet.png"
   },
   {
     "id": "fatia-torta-brownie",
@@ -798,7 +798,7 @@ const PRODUCTS = [
     "filterTags": [
       "destaque"
     ],
-    "image": "images/xmenu_fatia-torta-ferrero.gif"
+    "image": "images/fatia_cacau_calda_quente.png"
   },
   {
     "id": "fatia-torta-pistache",
@@ -873,7 +873,7 @@ const PRODUCTS = [
     "filterTags": [
       "destaque"
     ],
-    "image": "images/xmenu_brownie-com-sorvete.gif"
+    "image": "images/brownie_colher_sorvete.png"
   },
   {
     "id": "grand-vulcao",
@@ -888,7 +888,7 @@ const PRODUCTS = [
     "filterTags": [
       "destaque"
     ],
-    "image": "images/xmenu_grand-vulcao.gif"
+    "image": "images/taca_vulcao_brigadeiro.png"
   },
   {
     "id": "gelatto",
@@ -903,7 +903,7 @@ const PRODUCTS = [
     "filterTags": [
       "destaque"
     ],
-    "image": "images/taca_vulcao_brigadeiro.png"
+    "image": "images/taca_ninho_morango_sorvete.png"
   },
   {
     "id": "caseirinhos-simples",
@@ -948,7 +948,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_mini-vulcao-chocolatudo.gif"
+    "image": "images/mini_vulcao_sorvete.png"
   },
   {
     "id": "mini-vulcao-ninho-com-nutella",
@@ -963,7 +963,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/mini_vulcao_sorvete.png"
+    "image": "images/mini_vulcao_sorvete_morango.png"
   },
   {
     "id": "caseirinho-premium-tam-familia",
@@ -978,7 +978,7 @@ const PRODUCTS = [
     "filterTags": [
       "destaque"
     ],
-    "image": "images/xmenu_caseirinho-premium-tam-familia.gif"
+    "image": "images/caseirinho_premium_duo.png"
   },
   {
     "id": "combo-1-fatia-refri-lata-coxinha-frango-ou-carne",
@@ -1068,7 +1068,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_capuccino.gif"
+    "image": "images/cappuccino_especial_chantilly.png"
   },
   {
     "id": "capuccino-completo",
@@ -1158,7 +1158,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_milkshake-chocomaltine.gif"
+    "image": "images/milkshake_ovomaltine.png"
   },
   {
     "id": "milkshake-creme",
@@ -1173,7 +1173,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_milkshake-creme.gif"
+    "image": "images/cappuccino_especial_chantilly.png"
   },
   {
     "id": "milkshake-morango",
@@ -1188,7 +1188,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_milkshake-morango.gif"
+    "image": "images/taca_ninho_morango_sorvete.png"
   },
   {
     "id": "milkshake-nutella",
@@ -1203,7 +1203,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_milkshake-nutella.gif"
+    "image": "images/chocolate_gelado_nutella.png"
   },
   {
     "id": "refrigerante-lata-coca-cola",
@@ -1593,7 +1593,7 @@ const PRODUCTS = [
     "filterTags": [
       "individual"
     ],
-    "image": "images/xmenu_maracuja-trufado.gif"
+    "image": "images/potinho_mousse_ninho_morango.png"
   },
   {
     "id": "sacola-para-presente-g",
@@ -1768,9 +1768,13 @@ function createProductCardHTML(product) {
   const customImg = state.customPhotos[product.id] || product.image;
   
   const imageHTML = customImg 
-    ? `<img src="${customImg}" alt="${product.title}" class="product-card-img" />`
+    ? `<img src="${customImg}" alt="${product.title}" class="product-card-img" onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='flex';" />
+       <div class="placeholder-illustration" style="display:none;">
+        <span class="ph-icon">${product.icon || '🧁'}</span>
+        <span class="ph-text">Petra Holanda</span>
+       </div>`
     : `<div class="placeholder-illustration">
-        <span class="ph-icon">${product.icon}</span>
+        <span class="ph-icon">${product.icon || '🧁'}</span>
         <span class="ph-text">Petra Holanda</span>
        </div>`;
 
