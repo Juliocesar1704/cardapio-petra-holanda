@@ -20,7 +20,7 @@ const PRODUCTS = [
     "description": "empada recheada com frango e catupiry",
     "badge": "Quentinho",
     "badgeType": "mint",
-    "icon": "ð",
+    "icon": "🍗",
     "filterTags": [
       "individual"
     ],
@@ -36,7 +36,7 @@ const PRODUCTS = [
     "description": "empada recheada com carne de sol e cream cheese",
     "badge": "Quentinho",
     "badgeType": "mint",
-    "icon": "ð",
+    "icon": "🍗",
     "filterTags": [
       "individual"
     ],
@@ -49,10 +49,10 @@ const PRODUCTS = [
     "category": "salgados",
     "price": 11.99,
     "unit": "Porção",
-    "description": "pão delÃ­cia recheado com frango",
+    "description": "pão delícia recheado com frango",
     "badge": "Quentinho",
     "badgeType": "mint",
-    "icon": "ð",
+    "icon": "🍗",
     "filterTags": [
       "individual"
     ],
@@ -65,10 +65,10 @@ const PRODUCTS = [
     "category": "salgados",
     "price": 14.99,
     "unit": "Porção",
-    "description": "pão delÃ­cia recheado com carne",
-    "badge": "DelÃ­cia",
+    "description": "pão delícia recheado com carne",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð",
+    "icon": "🍗",
     "filterTags": [
       "individual"
     ],
@@ -84,11 +84,11 @@ const PRODUCTS = [
     "description": "coxinha de carne de sol com requeijão",
     "badge": "Quentinho",
     "badgeType": "mint",
-    "icon": "ð",
+    "icon": "🍗",
     "filterTags": [
       "individual"
     ],
-    "image": "images/coxinha_gourmet_solo.png",
+    "image": "images/xmenu_coxinha-carne-de-sol.png",
     "isVitrine": true
   },
   {
@@ -100,7 +100,7 @@ const PRODUCTS = [
     "description": "coxinha de frango com requeijão",
     "badge": "Quentinho",
     "badgeType": "mint",
-    "icon": "ð",
+    "icon": "🍗",
     "filterTags": [
       "individual"
     ],
@@ -114,9 +114,9 @@ const PRODUCTS = [
     "price": 15.0,
     "unit": "Porção",
     "description": "15 unidades",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð",
+    "icon": "🍗",
     "filterTags": [
       "individual"
     ],
@@ -130,9 +130,9 @@ const PRODUCTS = [
     "price": 15.0,
     "unit": "Porção",
     "description": "15 unidades",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð",
+    "icon": "🍗",
     "filterTags": [
       "individual"
     ],
@@ -146,9 +146,9 @@ const PRODUCTS = [
     "price": 15.0,
     "unit": "Porção",
     "description": "15 unidades",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð",
+    "icon": "🍗",
     "filterTags": [
       "individual"
     ],
@@ -162,9 +162,9 @@ const PRODUCTS = [
     "price": 15.0,
     "unit": "Porção",
     "description": "15 unidades",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð",
+    "icon": "🍗",
     "filterTags": [
       "individual"
     ],
@@ -178,9 +178,9 @@ const PRODUCTS = [
     "price": 14.99,
     "unit": "Porção",
     "description": "Croissant De Carne artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥",
+    "icon": "🍗",
     "filterTags": [
       "individual"
     ],
@@ -194,9 +194,9 @@ const PRODUCTS = [
     "price": 11.99,
     "unit": "Porção",
     "description": "Croissant De Frango artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥",
+    "icon": "🍗",
     "filterTags": [
       "individual"
     ],
@@ -210,9 +210,9 @@ const PRODUCTS = [
     "price": 17.99,
     "unit": "Porção",
     "description": "Croissant Ninho Com Morango artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥",
+    "icon": "🍗",
     "filterTags": [
       "individual"
     ],
@@ -226,9 +226,9 @@ const PRODUCTS = [
     "price": 17.99,
     "unit": "Porção",
     "description": "Croissant Ninho Com Nutella artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥",
+    "icon": "🍗",
     "filterTags": [
       "individual"
     ],
@@ -242,7 +242,7 @@ const PRODUCTS = [
     "price": 10.0,
     "unit": "Unidade",
     "description": "Alfajor artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -258,7 +258,7 @@ const PRODUCTS = [
     "price": 20.0,
     "unit": "Unidade",
     "description": "Banoffe artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -274,9 +274,9 @@ const PRODUCTS = [
     "price": 17.0,
     "unit": "Unidade",
     "description": "Bolo No Pote Brigadeiro artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð°",
+    "icon": "🎂",
     "filterTags": [
       "individual"
     ],
@@ -290,9 +290,9 @@ const PRODUCTS = [
     "price": 17.0,
     "unit": "Unidade",
     "description": "Bolo No Pote Ninho + Brigadeiro artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð°",
+    "icon": "🎂",
     "filterTags": [
       "individual"
     ],
@@ -306,9 +306,9 @@ const PRODUCTS = [
     "price": 17.0,
     "unit": "Unidade",
     "description": "Bolo No Pote Ninho + Morango artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð°",
+    "icon": "🎂",
     "filterTags": [
       "individual"
     ],
@@ -322,9 +322,9 @@ const PRODUCTS = [
     "price": 17.0,
     "unit": "Unidade",
     "description": "Bolo No Pote Ninho + Nutela artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð°",
+    "icon": "🎂",
     "filterTags": [
       "individual"
     ],
@@ -338,9 +338,9 @@ const PRODUCTS = [
     "price": 17.0,
     "unit": "Unidade",
     "description": "Bolo No Pote Red Velvet artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð°",
+    "icon": "🎂",
     "filterTags": [
       "individual"
     ],
@@ -354,7 +354,7 @@ const PRODUCTS = [
     "price": 16.9,
     "unit": "Unidade",
     "description": "Brownie Duo Brigadeiro artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -370,7 +370,7 @@ const PRODUCTS = [
     "price": 16.9,
     "unit": "Unidade",
     "description": "Brownie Duo Ninho E Brigadeiro artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -386,7 +386,7 @@ const PRODUCTS = [
     "price": 16.9,
     "unit": "Unidade",
     "description": "Brownie Duo Ninho E Morango artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -402,7 +402,7 @@ const PRODUCTS = [
     "price": 16.9,
     "unit": "Unidade",
     "description": "Brownie Duo Ninho E Nutella artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -418,7 +418,7 @@ const PRODUCTS = [
     "price": 13.0,
     "unit": "Unidade",
     "description": "Cone Trufado artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -434,9 +434,9 @@ const PRODUCTS = [
     "price": 20.0,
     "unit": "Unidade",
     "description": "Copo Da Felicidade 266G artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¯",
+    "icon": "🍰",
     "filterTags": [
       "individual"
     ],
@@ -452,7 +452,7 @@ const PRODUCTS = [
     "description": "recheio de brigadeiro, pedaços de brownie, pedacos de kinder buneo, e mousse de ninho.",
     "badge": "ð Gourmet",
     "badgeType": "gold",
-    "icon": "ð¯",
+    "icon": "🍰",
     "filterTags": [
       "individual"
     ],
@@ -466,9 +466,9 @@ const PRODUCTS = [
     "price": 19.0,
     "unit": "Unidade",
     "description": "recheio de creme de ninho, pedaçços de morango, bolo de baunilha, mousse de ninho.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¯",
+    "icon": "🍰",
     "filterTags": [
       "individual"
     ],
@@ -484,7 +484,7 @@ const PRODUCTS = [
     "description": "brigadeiro de morango",
     "badge": "Quentinho",
     "badgeType": "mint",
-    "icon": "ð",
+    "icon": "🍬",
     "filterTags": [
       "individual"
     ],
@@ -498,7 +498,7 @@ const PRODUCTS = [
     "price": 18.0,
     "unit": "Unidade",
     "description": "Delicia Tropical - Sensaçao artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -514,9 +514,9 @@ const PRODUCTS = [
     "price": 20.0,
     "unit": "Unidade",
     "description": "Fatia Nutella artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð°",
+    "icon": "🎂",
     "filterTags": [
       "individual"
     ],
@@ -530,7 +530,7 @@ const PRODUCTS = [
     "price": 18.0,
     "unit": "Unidade",
     "description": "cocada cremosa, pedaços de massa de banilha, abacaxi caramelizada finalizado de creme de moça e chantininho",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -546,7 +546,7 @@ const PRODUCTS = [
     "price": 15.99,
     "unit": "Unidade",
     "description": "mousse de limão, massa de baunilha e chantininho.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -562,7 +562,7 @@ const PRODUCTS = [
     "price": 18.0,
     "unit": "Unidade",
     "description": "delicia tropical - maracuja",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -578,7 +578,7 @@ const PRODUCTS = [
     "price": 18.0,
     "unit": "Unidade",
     "description": "cocada cremosa, pedaços de brownie, e ganache.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -594,7 +594,7 @@ const PRODUCTS = [
     "price": 4.0,
     "unit": "Unidade",
     "description": "Docinhos Brigadeiro Belga artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -610,7 +610,7 @@ const PRODUCTS = [
     "price": 4.0,
     "unit": "Unidade",
     "description": "Docinhos Churros artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -642,7 +642,7 @@ const PRODUCTS = [
     "price": 4.0,
     "unit": "Unidade",
     "description": "Docinhos Ninho Com Nutela artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -658,7 +658,7 @@ const PRODUCTS = [
     "price": 4.0,
     "unit": "Unidade",
     "description": "Docinhos Surpresa De Uva artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -674,9 +674,9 @@ const PRODUCTS = [
     "price": 20.0,
     "unit": "Unidade",
     "description": "massa de baunilha e chocolate com recheio de brigadeiro, doce de leite e amendoim crocante / com corbetura de chantilly",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð°",
+    "icon": "🎂",
     "filterTags": [
       "individual"
     ],
@@ -692,7 +692,7 @@ const PRODUCTS = [
     "description": "Fatia Matilda artesanal feito no capricho pela Confeitaria Petra Holanda.",
     "badge": "â­ Mais Pedido",
     "badgeType": "gold",
-    "icon": "ð°",
+    "icon": "🎂",
     "filterTags": [
       "destaque"
     ],
@@ -708,7 +708,7 @@ const PRODUCTS = [
     "description": "bolo chocolate 50% cacau,recheado com 3 camadas de brigadeiro ao leite e cobertura de ganache de chocolatecobre! peso medio: 350g. acompanha calda de chocolate e granulado de chocolate.",
     "badge": "â­ Mais Pedido",
     "badgeType": "gold",
-    "icon": "ð°",
+    "icon": "🎂",
     "filterTags": [
       "destaque"
     ],
@@ -722,9 +722,9 @@ const PRODUCTS = [
     "price": 20.0,
     "unit": "Unidade",
     "description": "massa: baunilha, recheio de ninho com nutella e cobertura de ninho.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð°",
+    "icon": "🎂",
     "filterTags": [
       "individual"
     ],
@@ -738,9 +738,9 @@ const PRODUCTS = [
     "price": 20.0,
     "unit": "Unidade",
     "description": "massa red velvet saborizada de frutas vermelhas com recheio de ninho com geleia de morango / com cobertura de chantilly",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð°",
+    "icon": "🎂",
     "filterTags": [
       "individual"
     ],
@@ -754,9 +754,9 @@ const PRODUCTS = [
     "price": 21.0,
     "unit": "Unidade",
     "description": "massa-chocolate-recheio de creme de moça e morango-cobertura de chocolate.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð°",
+    "icon": "🎂",
     "filterTags": [
       "destaque"
     ],
@@ -770,9 +770,9 @@ const PRODUCTS = [
     "price": 25.0,
     "unit": "Unidade",
     "description": "Fatia Torta Brownie artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð°",
+    "icon": "🎂",
     "filterTags": [
       "destaque"
     ],
@@ -818,7 +818,7 @@ const PRODUCTS = [
     "price": 18.0,
     "unit": "Unidade",
     "description": "pudim 250g",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -834,9 +834,9 @@ const PRODUCTS = [
     "price": 22.0,
     "unit": "Unidade",
     "description": "Fatia Torta Duo artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð°",
+    "icon": "🎂",
     "filterTags": [
       "destaque"
     ],
@@ -852,7 +852,7 @@ const PRODUCTS = [
     "description": "base de biscoito com chocolate 50% cacau, mousse de creme de avelã, ganache de chocolate meio amargo com pedaços de amendoim e brigadeiro belga",
     "badge": "ð Gourmet",
     "badgeType": "gold",
-    "icon": "ð°",
+    "icon": "🎂",
     "filterTags": [
       "destaque"
     ],
@@ -868,7 +868,7 @@ const PRODUCTS = [
     "description": "base de biscoito, mousse de pistache, geleia de morango, ganache de chocolate branco...",
     "badge": "ð Gourmet",
     "badgeType": "gold",
-    "icon": "ð°",
+    "icon": "🎂",
     "filterTags": [
       "destaque"
     ],
@@ -884,7 +884,7 @@ const PRODUCTS = [
     "description": "sorvete de creme, acompanhada de recheio de brigadeiro e branco, com pedaços de brownie, acompamento,...",
     "badge": "â­ Especial",
     "badgeType": "gold",
-    "icon": "ð§",
+    "icon": "🍧",
     "filterTags": [
       "destaque"
     ],
@@ -898,9 +898,9 @@ const PRODUCTS = [
     "price": 29.9,
     "unit": "Porção",
     "description": "sobremesa com sorvete de creme, acompanhada depedacos de brownie,recheio de brigadeiro tradicional ...",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð§",
+    "icon": "🍧",
     "filterTags": [
       "destaque"
     ],
@@ -916,7 +916,7 @@ const PRODUCTS = [
     "description": "bolinho de chocolate quentinho, acompanhado de brigadeiro cremoso tradicional e branco, acompanhamento,...",
     "badge": "â­ Especial",
     "badgeType": "gold",
-    "icon": "ð§",
+    "icon": "🍧",
     "filterTags": [
       "destaque"
     ],
@@ -930,7 +930,7 @@ const PRODUCTS = [
     "price": 28.9,
     "unit": "Porção",
     "description": "fatia de pizza brownie, sorvete de creme, acompanheto e calda de chocolate.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -948,7 +948,7 @@ const PRODUCTS = [
     "description": "bolo quentinho, acompando de calda de chocolate e sorevte de creme,finalizado com ganule belga e acompanhamento.",
     "badge": "â­ Especial",
     "badgeType": "gold",
-    "icon": "ð§",
+    "icon": "🍧",
     "filterTags": [
       "destaque"
     ],
@@ -964,7 +964,7 @@ const PRODUCTS = [
     "description": "base de brownie quentinho, acompanhado de picole magnum, recheio de ninho e brigadeiro, acompanhamento,nutella e...",
     "badge": "â­ Especial",
     "badgeType": "gold",
-    "icon": "ð§",
+    "icon": "🍧",
     "filterTags": [
       "destaque"
     ],
@@ -980,7 +980,7 @@ const PRODUCTS = [
     "description": "serve de 5 a 6 pessoas / obs: para retirada em loja o pedido só entra para produção mediante pagamento via pix",
     "badge": "â­ Especial",
     "badgeType": "gold",
-    "icon": "ð°",
+    "icon": "🎂",
     "filterTags": [
       "destaque"
     ],
@@ -996,7 +996,7 @@ const PRODUCTS = [
     "description": "serve de 5 a 6 pessoas / obs: para retirada em loja o pedido só entra para produção mediante pagamento pix",
     "badge": "â­ Especial",
     "badgeType": "gold",
-    "icon": "ð°",
+    "icon": "🎂",
     "filterTags": [
       "destaque"
     ],
@@ -1010,9 +1010,9 @@ const PRODUCTS = [
     "price": 15.99,
     "unit": "Unidade",
     "description": "Mini Vulcao Chocolatudo artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð§",
+    "icon": "🎂",
     "filterTags": [
       "individual"
     ],
@@ -1026,9 +1026,9 @@ const PRODUCTS = [
     "price": 15.99,
     "unit": "Unidade",
     "description": "Mini Vulcao Ninho Com Nutella artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð§",
+    "icon": "🎂",
     "filterTags": [
       "individual"
     ],
@@ -1044,7 +1044,7 @@ const PRODUCTS = [
     "description": "serve de 10 a 12 pessoas / obs: para retirada em loja o pedido só entra para produção mediante pagamento via pix",
     "badge": "â­ Especial",
     "badgeType": "gold",
-    "icon": "ð°",
+    "icon": "🎂",
     "filterTags": [
       "destaque"
     ],
@@ -1060,7 +1060,7 @@ const PRODUCTS = [
     "description": "coloque na observação: sabor da fatia ( tentação, nutella ou crocante ) , da coxinha e do refri . obs fatia red velvit...",
     "badge": "â­ Mais Pedido",
     "badgeType": "gold",
-    "icon": "ð",
+    "icon": "🍗",
     "filterTags": [
       "destaque"
     ],
@@ -1076,7 +1076,7 @@ const PRODUCTS = [
     "description": "combo com bolo no pote, refrigerante lata e coxinha",
     "badge": "â­ Mais Pedido",
     "badgeType": "gold",
-    "icon": "ð",
+    "icon": "🍗",
     "filterTags": [
       "destaque"
     ],
@@ -1090,9 +1090,9 @@ const PRODUCTS = [
     "price": 5.0,
     "unit": "Unidade",
     "description": "água mineral com gás",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥¤",
+    "icon": "🥤",
     "filterTags": [
       "individual"
     ],
@@ -1106,9 +1106,9 @@ const PRODUCTS = [
     "price": 4.0,
     "unit": "Unidade",
     "description": "água mineral sem gás",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥¤",
+    "icon": "🥤",
     "filterTags": [
       "individual"
     ],
@@ -1122,7 +1122,7 @@ const PRODUCTS = [
     "price": 4.5,
     "unit": "Unidade",
     "description": "café expresso",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â",
     "filterTags": [
@@ -1138,7 +1138,7 @@ const PRODUCTS = [
     "price": 8.9,
     "unit": "Unidade",
     "description": "capuccino tradicional",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â",
     "filterTags": [
@@ -1154,7 +1154,7 @@ const PRODUCTS = [
     "price": 14.9,
     "unit": "Unidade",
     "description": "capuccino com borda de chocolate e chantilly",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â",
     "filterTags": [
@@ -1170,7 +1170,7 @@ const PRODUCTS = [
     "price": 18.0,
     "unit": "Unidade",
     "description": "chocolate quente cremoso",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â",
     "filterTags": [
@@ -1186,9 +1186,9 @@ const PRODUCTS = [
     "price": 10.0,
     "unit": "Unidade",
     "description": "Coca Cola 1L artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥¤",
+    "icon": "🥤",
     "filterTags": [
       "individual"
     ],
@@ -1202,9 +1202,9 @@ const PRODUCTS = [
     "price": 10.0,
     "unit": "Unidade",
     "description": "Coca Zero 1Lt artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥¤",
+    "icon": "🥤",
     "filterTags": [
       "individual"
     ],
@@ -1218,9 +1218,9 @@ const PRODUCTS = [
     "price": 10.0,
     "unit": "Unidade",
     "description": "Guarana 1Lt artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥¤",
+    "icon": "🥤",
     "filterTags": [
       "individual"
     ],
@@ -1234,7 +1234,7 @@ const PRODUCTS = [
     "price": 16.0,
     "unit": "Unidade",
     "description": "Milkshake Chocomaltine artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -1250,7 +1250,7 @@ const PRODUCTS = [
     "price": 16.0,
     "unit": "Unidade",
     "description": "Milkshake Creme artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -1266,7 +1266,7 @@ const PRODUCTS = [
     "price": 16.0,
     "unit": "Unidade",
     "description": "Milkshake Morango artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -1282,7 +1282,7 @@ const PRODUCTS = [
     "price": 16.0,
     "unit": "Unidade",
     "description": "Milkshake Nutella artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -1298,9 +1298,9 @@ const PRODUCTS = [
     "price": 6.0,
     "unit": "Unidade",
     "description": "Refrigerante Lata Coca-Cola artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥¤",
+    "icon": "🥤",
     "filterTags": [
       "individual"
     ],
@@ -1314,9 +1314,9 @@ const PRODUCTS = [
     "price": 6.0,
     "unit": "Unidade",
     "description": "Refrigerante Lata Fanta Laranja artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥¤",
+    "icon": "🥤",
     "filterTags": [
       "individual"
     ],
@@ -1330,9 +1330,9 @@ const PRODUCTS = [
     "price": 6.0,
     "unit": "Unidade",
     "description": "Refrigerante Lata Fanta Uva artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥¤",
+    "icon": "🥤",
     "filterTags": [
       "individual"
     ],
@@ -1346,9 +1346,9 @@ const PRODUCTS = [
     "price": 6.0,
     "unit": "Unidade",
     "description": "Refrigerante Lata Guarana artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥¤",
+    "icon": "🥤",
     "filterTags": [
       "individual"
     ],
@@ -1362,9 +1362,9 @@ const PRODUCTS = [
     "price": 7.0,
     "unit": "Unidade",
     "description": "Suco Laranja artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥¤",
+    "icon": "🥤",
     "filterTags": [
       "individual"
     ],
@@ -1378,9 +1378,9 @@ const PRODUCTS = [
     "price": 6.0,
     "unit": "Unidade",
     "description": "Suco Polpa Acerola artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥¤",
+    "icon": "🥤",
     "filterTags": [
       "individual"
     ],
@@ -1394,9 +1394,9 @@ const PRODUCTS = [
     "price": 6.0,
     "unit": "Unidade",
     "description": "Suco Polpa Caja artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥¤",
+    "icon": "🥤",
     "filterTags": [
       "individual"
     ],
@@ -1410,9 +1410,9 @@ const PRODUCTS = [
     "price": 6.0,
     "unit": "Unidade",
     "description": "Suco Polpa Goiaba artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥¤",
+    "icon": "🥤",
     "filterTags": [
       "individual"
     ],
@@ -1426,9 +1426,9 @@ const PRODUCTS = [
     "price": 6.0,
     "unit": "Unidade",
     "description": "Suco Polpa Maracuja artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥¤",
+    "icon": "🥤",
     "filterTags": [
       "individual"
     ],
@@ -1442,9 +1442,9 @@ const PRODUCTS = [
     "price": 6.5,
     "unit": "Unidade",
     "description": "H2O artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥¤",
+    "icon": "🥤",
     "filterTags": [
       "individual"
     ],
@@ -1458,9 +1458,9 @@ const PRODUCTS = [
     "price": 6.0,
     "unit": "Unidade",
     "description": "Suco De Uva artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥¤",
+    "icon": "🥤",
     "filterTags": [
       "individual"
     ],
@@ -1474,9 +1474,9 @@ const PRODUCTS = [
     "price": 6.0,
     "unit": "Unidade",
     "description": "Refrigerante Lata Coca-Cola Zero artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥¤",
+    "icon": "🥤",
     "filterTags": [
       "individual"
     ],
@@ -1490,9 +1490,9 @@ const PRODUCTS = [
     "price": 6.0,
     "unit": "Unidade",
     "description": "Refrigerante Lata Guarana Zero artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥¤",
+    "icon": "🥤",
     "filterTags": [
       "individual"
     ],
@@ -1506,9 +1506,9 @@ const PRODUCTS = [
     "price": 6.0,
     "unit": "Unidade",
     "description": "Refrigerante Lata Sprite artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥¤",
+    "icon": "🥤",
     "filterTags": [
       "individual"
     ],
@@ -1522,9 +1522,9 @@ const PRODUCTS = [
     "price": 6.0,
     "unit": "Unidade",
     "description": "Refrigerante Lata Sprite Zero artesanal feito no capricho pela Confeitaria Petra Holanda.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¥¤",
+    "icon": "🥤",
     "filterTags": [
       "individual"
     ],
@@ -1538,9 +1538,9 @@ const PRODUCTS = [
     "price": 8.99,
     "unit": "Unidade",
     "description": "dindin gourmet sabor abacaxi com coco",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð¦",
+    "icon": "🍦",
     "filterTags": [
       "individual"
     ],
@@ -1556,7 +1556,7 @@ const PRODUCTS = [
     "description": "(sabor morango trufado com chocolate nobre ao leite)",
     "badge": "â¨ Gelado Artesanal",
     "badgeType": "mint",
-    "icon": "ð¦",
+    "icon": "🍦",
     "filterTags": [
       "individual"
     ],
@@ -1572,7 +1572,7 @@ const PRODUCTS = [
     "description": "dindin gourmet sabor pistache",
     "badge": "â¨ Gelado Artesanal",
     "badgeType": "mint",
-    "icon": "ð¦",
+    "icon": "🍦",
     "filterTags": [
       "individual"
     ],
@@ -1588,7 +1588,7 @@ const PRODUCTS = [
     "description": "dindin gourmet sabor pudim",
     "badge": "â¨ Gelado Artesanal",
     "badgeType": "mint",
-    "icon": "ð¦",
+    "icon": "🍦",
     "filterTags": [
       "individual"
     ],
@@ -1604,7 +1604,7 @@ const PRODUCTS = [
     "description": "sabor ninho com geleia de morango artesanal",
     "badge": "â¨ Gelado Artesanal",
     "badgeType": "mint",
-    "icon": "ð¦",
+    "icon": "🍦",
     "filterTags": [
       "individual"
     ],
@@ -1620,7 +1620,7 @@ const PRODUCTS = [
     "description": "sabor ninho com pedaços de oreo",
     "badge": "â¨ Gelado Artesanal",
     "badgeType": "mint",
-    "icon": "ð¦",
+    "icon": "🍦",
     "filterTags": [
       "individual"
     ],
@@ -1636,7 +1636,7 @@ const PRODUCTS = [
     "description": "sabor ovomaltine trufado de chocolate nobre ao leite",
     "badge": "â¨ Gelado Artesanal",
     "badgeType": "mint",
-    "icon": "ð¦",
+    "icon": "🍦",
     "filterTags": [
       "individual"
     ],
@@ -1652,7 +1652,7 @@ const PRODUCTS = [
     "description": "sabor coco trufado com chocolate nobre ao leite",
     "badge": "â¨ Gelado Artesanal",
     "badgeType": "mint",
-    "icon": "ð¦",
+    "icon": "🍦",
     "filterTags": [
       "individual"
     ],
@@ -1668,7 +1668,7 @@ const PRODUCTS = [
     "description": "sabor limão, trufado com chocolate branco nobre e pedaços de biscoito",
     "badge": "â¨ Gelado Artesanal",
     "badgeType": "mint",
-    "icon": "ð¦",
+    "icon": "🍦",
     "filterTags": [
       "individual"
     ],
@@ -1684,7 +1684,7 @@ const PRODUCTS = [
     "description": "base de ninho trufada com nutella",
     "badge": "â¨ Gelado Artesanal",
     "badgeType": "mint",
-    "icon": "ð¦",
+    "icon": "🍦",
     "filterTags": [
       "individual"
     ],
@@ -1698,7 +1698,7 @@ const PRODUCTS = [
     "price": 8.99,
     "unit": "Unidade",
     "description": "base de maracujá com chocolate nobre ao leite",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
     "icon": "â¨",
     "filterTags": [
@@ -1714,9 +1714,9 @@ const PRODUCTS = [
     "price": 7.0,
     "unit": "Unidade",
     "description": "o caseirinho cabe nela.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð",
+    "icon": "🎁",
     "filterTags": [
       "individual"
     ],
@@ -1730,9 +1730,9 @@ const PRODUCTS = [
     "price": 5.0,
     "unit": "Unidade",
     "description": "o caseirinho não cabe nela.",
-    "badge": "DelÃ­cia",
+    "badge": "Delícia",
     "badgeType": "mint",
-    "icon": "ð",
+    "icon": "🎁",
     "filterTags": [
       "individual"
     ],
